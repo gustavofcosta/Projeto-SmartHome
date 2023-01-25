@@ -1,11 +1,12 @@
-import BasicCard from './components/BasicCard';
+import SectionProduct from './components/SectionProduct';
+//import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <section className="bg-black min-w-screen flex justify-center items-center">
-      <div>
-        <BasicCard />
-      </div>
-    </section>
+    <>
+      <SectionProduct mt={0} />
+      <SectionProduct mt={2} />
+    </>
   );
 }
 
