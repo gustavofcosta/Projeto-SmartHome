@@ -1,16 +1,11 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
-
+import BasicCard from './components/BasicCard';
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="min-h-screen flex justify-center items-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Install & Setup Vite + React + Typescript + Tailwind CSS 3
-      </h1>
-    </div>
+    <section className="bg-black min-w-screen flex justify-center items-center">
+      <div>
+        <BasicCard />
+      </div>
+    </section>
   );
 }
 
